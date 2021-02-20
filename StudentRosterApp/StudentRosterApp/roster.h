@@ -1,5 +1,10 @@
 #pragma once
 #include "student.h"
+#ifndef ROSTER_H 
+/* your original code */
+#else
+#define ROSTER_H
+#endif
 
 class Roster {
 public:

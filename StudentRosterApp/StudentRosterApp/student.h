@@ -2,6 +2,11 @@
 #include <iostream>
 #include <iomanip>
 #include "degree.h"
+#ifndef STUDENT_H 
+/* your original code */
+#else
+#define STUDENT_H
+#endif
 
 using std::string;
 using std::cout;
